@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Rijksmuseum API Demo</title>
+        <meta name="description" content="Demo for using Rijksmuseum API to display some of its data">
+        
+        <link rel="stylesheet" type="text/css" href="rijkstest2.css">
+        <meta name="author" content="Amjad Muhammad">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Oswald%7CCoiny%7CArimo" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    </head>
+    
+    <body>
+        <div id="wrapper">
+            <header>
+                <h1>Rijksmuseum API Demo</h1>
+            </header>
+            
+
+          <div class="outer-input-div">
+            <div class="inner-input-div">
+              <input id="query" type="search" placeholder="Artist, Painting, or anything!">
+              <input type="button" value="Search" id="search">
+            </div>
+          </div>
+        <div class="loader" id="loader"></div>    
+        <div id="result"></div>
+               
+        <script type="text/javascript" src="rijkstest2.js"></script>
+            
+        </div>
+    </body>
+</html>
