@@ -15,29 +15,31 @@ h1 {
     text-align: center;
 }
 
-img {
-    width: 100%;
-    border-radius: 5px;
-    padding: 0 auto;
+#rijks-logo {
+    width: 30%;
+    vertical-align: middle;
     border: 1px solid #999999;
-    margin-bottom: 10px;
+    border-radius: 5px;
 }
 
 p {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 30px;
+    color: #3C8DC5;
 }
 
-#result {
+.results-p {
+    display: inline;
+}
+
+#result-div {
     width: 80%;
     margin: 0 auto;
     font-size: 20px;
-    color: #3C8DC5;
+    font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-family: 'Arimo', sans-serif;
     text-align: center;
 }
+
 .results {
     width: 100%;
     margin: 15px auto;
@@ -88,6 +90,7 @@ p {
     font-weight: bold;
     padding: 8px 4px;
     font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
     color: #6FB7E9;
     min-width: 180px;
 }
@@ -107,16 +110,13 @@ p {
 .results-ul {
     text-align: left;
     font-size: 12px;
+    color: black;
 }
 
-a, a:visited {
-    color: darkblue;
-    text-decoration: none;
+#link-p {
+    font-size: 12px;
 }
-a:hover {
-    color: white;
-    background-color: darkblue;
-}
+
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
@@ -124,25 +124,25 @@ a:hover {
 }
 
 @media screen and (min-width: 480px) {
-    #query, .results-ul {
+    #query, .results-ul, #link-p {
         font-size: 14px;
     }
 }
 
 @media screen and (min-width: 640px) {
-    #query, .results-ul {
+    #query, .results-ul, #link-p {
         font-size: 16px;
     }
 }
 
 @media screen and (min-width: 800px) {
-    #query, .results-ul {
+    #query, .results-ul, #link-p {
         font-size: 18px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    #query, .results-ul {
+    #query, .results-ul, #link-p {
         font-size: 20px;
     }
     #wrapper {
