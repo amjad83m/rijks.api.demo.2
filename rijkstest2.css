@@ -106,6 +106,7 @@ p {
 
 .results-ul {
     text-align: left;
+    font-size: 12px;
 }
 
 a, a:visited {
@@ -123,25 +124,25 @@ a:hover {
 }
 
 @media screen and (min-width: 480px) {
-    #query {
+    #query, .results-ul {
         font-size: 14px;
     }
 }
 
 @media screen and (min-width: 640px) {
-    #query {
+    #query, .results-ul {
         font-size: 16px;
     }
 }
 
 @media screen and (min-width: 800px) {
-    #query {
+    #query, .results-ul {
         font-size: 18px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    #query {
+    #query, .results-ul {
         font-size: 20px;
     }
     #wrapper {
